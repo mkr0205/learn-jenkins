@@ -28,7 +28,7 @@ pipeline {
     }
      post { 
         always { 
-            echo ' This sections runs always"
+            echo "This sections runs always"
         }
         seccess{
             echo "This section run when pipeline success"
