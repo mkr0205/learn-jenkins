@@ -12,7 +12,8 @@ pipeline {
         stage('Test') { 
             steps {
                 script{
-                    echo "This is Build"
+                    sh "This is Build"
+                    test "build test"
                 }
                 // 
             }
